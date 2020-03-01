@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+      </head>
+    <body>
+        <p id="exam">새로쓰기</p>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">종류</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Choose...</option>
+                  <option value="1">아파트</option>
+                  <option value="2">연립주택</option>
+                  <option value="3">하우스</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">면적</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">m<sup>2</sup></span>
+                </div>
+                <input name="area" type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="0.00">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">가격</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">ETH</span>
+                </div>
+                <input name="price" type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="0.00">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </body>
+</html>
