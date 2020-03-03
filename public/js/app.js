@@ -1,7 +1,7 @@
 App = {
   web3Provider: null,
   contracts: {},
-	
+
   init: function() {
     $.getJSON('../real-estate.json', function(data) {
       var list = $('#list');

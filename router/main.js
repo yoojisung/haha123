@@ -4,6 +4,6 @@ module.exports = function(app)
         res.render('index.html')
      });
      app.get('/new',function(req,res){
-        res.render('new.html');
+        res.render('new.html')
     });
 }
